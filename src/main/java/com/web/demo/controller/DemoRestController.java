@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 @RestController
 @RequestMapping("/demo")
-public class DemoController {
+public class DemoRestController {
     @GetMapping(value = {"/wjl", "ws"})
     public String demo(@RequestParam(value = "name", defaultValue = "world") String name) {
         log.info("demo param:{}", name);
