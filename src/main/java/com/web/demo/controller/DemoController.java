@@ -7,7 +7,7 @@
  * 修改内容：
  * 建议：
  */
-package com.web.example.demo.controller;
+package com.web.demo.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
